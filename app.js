@@ -81,7 +81,7 @@ componentWillMount: function() {
   },
 
   componentWillUpdate: function() {
-    console.log('W tej metodzie, tuż przed tym jak komponent otrzyma nowe propsy i nowy stan, możemy dodać jakąś animację do strony.');
+    console.log('W tej metodzie, tuż przed tym jak komponent otrzyma nowe propsy i nowy stan, możemy na przykład dodać jakąś animację do strony.');
   },
 
   componentDidMount: function() {
