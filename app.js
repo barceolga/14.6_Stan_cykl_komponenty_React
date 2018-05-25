@@ -90,7 +90,7 @@ componentWillMount: function() {
       var sumCounters =  function() {
         return this.state.counter * 4;
       };
-      sumButton.addEventListner("click", sumCounters);
+      sumButton.addEventListener("click", sumCounters);
   },
 
   componentWillUnmount() {
